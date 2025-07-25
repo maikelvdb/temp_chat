@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\repos\\dictu\\BvBsn\\src\\Omega\\Omega.Shared.Health\\Omega.Shared.Health.csproj": {}
+  },
+  "projects": {
+    "C:\\repos\\dictu\\BvBsn\\src\\Omega\\Omega.Shared.Health\\Omega.Shared.Health.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\dictu\\BvBsn\\src\\Omega\\Omega.Shared.Health\\Omega.Shared.Health.csproj",
+        "projectName": "Omega.Shared.Health",
+        "projectPath": "C:\\repos\\dictu\\BvBsn\\src\\Omega\\Omega.Shared.Health\\Omega.Shared.Health.csproj",
+        "packagesPath": "C:\\Users\\maike\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\dictu\\BvBsn\\src\\Omega\\Omega.Shared.Health\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\repos\\dictu\\BvBsn\\NuGet.Config",
+          "C:\\Users\\maike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )",
+              "versionCentrallyManaged": true
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[8.2.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Asp.Versioning.Http": "8.1.0",
+            "Asp.Versioning.Mvc.ApiExplorer": "8.1.0",
+            "coverlet.collector": "6.0.2",
+            "coverlet.msbuild": "6.0.2",
+            "CsvHelper": "33.0.1",
+            "Dapper": "2.1.66",
+            "EFCore.BulkExtensions": "9.0.1",
+            "EFCore.BulkExtensions.SqlServer": "9.0.1",
+            "Keycloak.AuthServices.Authentication": "2.6.0",
+            "Mapster": "7.4.0",
+            "Mapster.DependencyInjection": "1.0.1",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.7",
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": "9.0.7",
+            "Microsoft.AspNetCore.Http": "2.2.2",
+            "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+            "Microsoft.AspNetCore.Mvc.Testing": "9.0.7",
+            "Microsoft.AspNetCore.OpenApi": "9.0.7",
+            "Microsoft.AspNetCore.TestHost": "9.0.7",
+            "Microsoft.Data.SqlClient": "6.0.2",
+            "Microsoft.EntityFrameworkCore": "9.0.7",
+            "Microsoft.EntityFrameworkCore.Abstractions": "9.0.7",
+            "Microsoft.EntityFrameworkCore.InMemory": "9.0.7",
+            "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.7",
+            "Microsoft.Extensions.Caching.StackExchangeRedis": "9.0.7",
+            "Microsoft.Extensions.Configuration": "9.0.7",
+            "Microsoft.Extensions.Configuration.Abstractions": "9.0.7",
+            "Microsoft.Extensions.Configuration.Json": "9.0.7",
+            "Microsoft.Extensions.DependencyInjection": "9.0.7",
+            "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.7",
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": "9.0.7",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.7",
+            "Microsoft.Extensions.Options": "9.0.7",
+            "Microsoft.IdentityModel.Protocols": "7.0.3",
+            "Microsoft.NET.Test.Sdk": "17.12.0",
+            "Moq": "4.20.72",
+            "Newtonsoft.Json": "13.0.3",
+            "Novell.Directory.Ldap.NETStandard": "4.0.0-beta5",
+            "NUnit": "4.3.0",
+            "NUnit.Analyzers": "4.4.0",
+            "NUnit3TestAdapter": "4.6.0",
+            "prometheus-net.AspNetCore": "8.2.1",
+            "Rebex.Common": "7.0.9313",
+            "Rebex.Sftp": "7.0.9313",
+            "Respawn": "6.2.1",
+            "Scrutor": "6.0.1",
+            "Serilog": "4.2.0",
+            "Serilog.AspNetCore": "9.0.0",
+            "Serilog.Enrichers.Environment": "3.0.1",
+            "Serilog.Exceptions": "8.4.0",
+            "Serilog.Extensions.Hosting": "9.0.0",
+            "Serilog.Settings.Configuration": "9.0.0",
+            "Serilog.Sinks.Console": "6.0.0",
+            "Serilog.Sinks.EventLog": "4.0.0",
+            "Serilog.Sinks.File": "6.0.0",
+            "Serilog.Sinks.Seq": "9.0.0",
+            "Serilog.Sinks.Trace": "4.0.0",
+            "ServiceStack.Text": "8.8.0",
+            "SoapCore": "1.1.0.51",
+            "StackExchange.Redis": "2.8.24",
+            "Swashbuckle.AspNetCore": "7.2.0",
+            "Swashbuckle.AspNetCore.SwaggerGen": "7.2.0",
+            "Swashbuckle.AspNetCore.SwaggerUI": "7.2.0",
+            "System.Diagnostics.EventLog": "9.0.7",
+            "System.DirectoryServices": "9.0.7",
+            "System.IdentityModel.Tokens.Jwt": "8.3.0",
+            "System.IO.Abstractions": "21.1.7",
+            "System.IO.Abstractions.TestingHelpers": "21.1.7",
+            "System.Linq.Async": "6.0.1",
+            "System.ServiceModel.Primitives": "8.1.1",
+            "TestableIO.System.IO.Abstractions": "21.1.7",
+            "TestableIO.System.IO.Abstractions.TestingHelpers": "21.1.7",
+            "TestableIO.System.IO.Abstractions.Wrappers": "21.1.7",
+            "Testcontainers": "4.1.0",
+            "Testcontainers.MsSql": "4.1.0",
+            "Testcontainers.Redis": "4.1.0",
+            "XMLUnit.Core": "2.10.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
